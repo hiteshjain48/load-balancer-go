@@ -50,3 +50,12 @@ func handleErr(err error) {
 		os.Exit(1)
 	}
 }
+
+
+func (lb *LoadBalancer) getNextAvailableServer() Server{}
+
+func (lb *LoadBalancer) serverProxy(w http.ResponseWriter, r *http.Request){}
+
+func main(){
+	
+}
